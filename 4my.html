@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4my care | 4my Internet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #96c4f3;
+            margin: 0;
+        }
+        .container {
+            flex: 1;
+            padding: 2rem;
+        }
+        .modal-content {
+            background-color: #ffffff;
+            border-radius: 8px;
+        }
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-transparan">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="My_B-removebg-preview.png" alt="" height="60px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="packages.html">Pilih Paket</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="4my.html">4my Care</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h5 class="text-center"><b>Paling Sering Ditanyakan</b></h5><br>
+    <div class="row row-cols-1" id="packageList">
+        <div>
+            <h6 id="question1">Apakah 4my Internet memiliki paket yang sesuai dengan kebutuhan saya?</h6>
+            <p id="answer1" style="display: none;">Ya, kami memiliki berbagai pilihan paket yang dapat disesuaikan dengan kebutuhan Anda.</p><hr>
+        </div>
+        <div>
+            <h6 id="question2">Bagaimana cara menghubungi 4my Internet jika saya memiliki pertanyaan?</h6>
+            <p id="answer2" style="display: none;">Anda dapat menghubungi kami melalui telepon, email, atau melalui formulir kontak di website kami.</p><hr>
+        </div>
+        <div>
+            <h6 id="question3">Apakah 4my Internet memiliki garansi untuk jaringan internet?</h6>
+            <p id="answer3" style="display: none;">Ya, kami memiliki garansi yang menjamin kualitas jaringan internet yang stabil dan cepat.</p><hr>
+        </div>
+        <div>
+            <h6 id="question4">Bagaimana cara mengatur akun 4my Internet?</h6>
+            <p id="answer4" style="display: none;">Anda dapat mengatur akun Anda melalui website kami atau melalui aplikasi 4my Internet.</p><hr>
+        </div>
+        <div>
+            <h6 id="question5">Apakah 4my Internet memiliki pilihan paket yang sesuai dengan budget saya?</h6>
+            <p id="answer5" style="display: none;">Ya, kami memiliki berbagai pilihan paket yang dapat disesuaikan dengan budget Anda.</p><hr>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-dark text-white text-center p-3">
+    <p>&copy; 2024 4my. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="4my.js"></script>
+
+</body>
+</html>
